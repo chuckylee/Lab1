@@ -6,3 +6,9 @@
  + Similar to exercise 1, control the RGB LED by using PWM to change the brightness of the led. Please read this link for more details of PWM
  + Get input from a button and change the brightness of each color of the RGB LED. For example, the RGB LED changes the brightness of red, green, blue by default. After a button is pressed, only the red one is changing its brightness, then green, blue and back to three colors.
 + Blink each LED in different paces. The RED LED is blinking every 0.5s, the green is 2s, and the blue is 3s.
+
+## GPIO ports
+| Peripherals    |  Raspberry Pi 3 ports |
+| LED RED        |  BCM2|
+| LED GREEN      |  BCM3|
+| LED BLUE       |  BCM4|
