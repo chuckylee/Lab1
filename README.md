@@ -19,7 +19,7 @@
 
 ## MEMBERS
 
-+ Trần Minh Đức
-+ Trần Thanh Sang
-+ Nguyễn Minh Nhựt
-+ Lê Đức Trung
++ Trần Minh Đức - 1610800
++ Trần Thanh Sang - 1612939
++ Nguyễn Minh Nhựt - 1612483
++ Lê Đức Trung - 1613786
