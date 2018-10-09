@@ -14,6 +14,8 @@
 | LED RED        |  BCM2|
 | LED GREEN      |  BCM3|
 | LED BLUE       |  BCM4|
+| COMMUM CATOT   |  GND|
+| COMMUM ANOT    |  5V|
 | BUTTON         |  BCM20|
 | PWM PIN        |  PWM0|
 
