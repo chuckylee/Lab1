@@ -14,3 +14,12 @@
 | LED RED        |  BCM2|
 | LED GREEN      |  BCM3|
 | LED BLUE       |  BCM4|
+| BUTTON         |  BCM20|
+| PWM PIN        |  PWM0|
+
+## MEMBERS
+
++ Trần Minh Đức
++ Trần Thanh Sang
++ Nguyễn Minh Nhựt
++ Lê Đức Trung
