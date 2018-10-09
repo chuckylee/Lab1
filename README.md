@@ -21,7 +21,7 @@
 
 ## Usage
 + At the exercise 3, add this line to dependencies `import com.google.android.things.pio.Pwm` into the MainActivity.java
-+ To use the pio-softpwm driver at the exercise 4, simply add the line below to build.gradle: `com.leinardi.android.things:pio-softpwm:0.2` and `import com.leinardi.android.things.pio.SoftPwm` into the MainActivity.java
++ To use the pio-softpwm driver at the exercise 4, simply add the line below to build.gradle: `implementation com.leinardi.android.things:pio-softpwm:0.2` and add `import com.leinardi.android.things.pio.SoftPwm` into the MainActivity.java
 ## MEMBERS
 
 + Trần Minh Đức - 1610800
