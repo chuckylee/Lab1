@@ -8,7 +8,9 @@
 + Blink each LED in different paces. The RED LED is blinking every 0.5s, the green is 2s, and the blue is 3s.
 
 ## GPIO ports
+
 | Peripherals    |  Raspberry Pi 3 ports |
+|----------------|-----------------------|
 | LED RED        |  BCM2|
 | LED GREEN      |  BCM3|
 | LED BLUE       |  BCM4|
