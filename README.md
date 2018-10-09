@@ -19,6 +19,8 @@
 | BUTTON         |  BCM20|
 | PWM PIN        |  PWM0|
 
+## Usage
+At the exercise 3 & 4 add this line to dependencies ` implementation 'com.leinardi.android.things:pio-softpwm:0.2' ` build.gradle of file app 
 ## MEMBERS
 
 + Trần Minh Đức - 1610800
