@@ -22,6 +22,7 @@
 ## Usage
 + At the exercise 3, add this line: `import com.google.android.things.pio.Pwm` into the MainActivity.java
 + To use the pio-softpwm driver at the exercise 4, simply add the line below to build.gradle: `implementation com.leinardi.android.things:pio-softpwm:0.2` and add `import com.leinardi.android.things.pio.SoftPwm` into the MainActivity.java
++ With the exercise controlling the RGB LED by using PWM, if we use commum cattot, the lower dutycycle, the brighter LED. By contrast, if we use commum anot, the higher dutycycle, the brighter LED.
 ## MEMBERS
 
 + Trần Minh Đức - 1610800
