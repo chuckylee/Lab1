@@ -14,15 +14,15 @@
 | LED RED        |  BCM2|
 | LED GREEN      |  BCM3|
 | LED BLUE       |  BCM4|
-| COMMUM CATOT   |  GND|
-| COMMUM ANOT    |  5V|
+| COMMOM CATOT   |  GND|
+| COMMOM ANOT    |  5V|
 | BUTTON         |  BCM20|
 | PWM PIN        |  PWM0|
 
 ## Usage
 + At the exercise 3, add this line: `import com.google.android.things.pio.Pwm` into the MainActivity.java
 + To use the pio-softpwm driver at the exercise 4, simply add the line below to build.gradle: `implementation com.leinardi.android.things:pio-softpwm:0.2` and add `import com.leinardi.android.things.pio.SoftPwm` into the MainActivity.java
-+ With the exercise controlling the RGB LED by using PWM, if we use commum cattot, the lower the dutycycle, the brighter LED. By contrast, if we use commum anot, the higher the dutycycle, the brighter LED.
++ With the exercise controlling the RGB LED by using PWM, if we use commom cattot, the lower the dutycycle, the brighter LED. By contrast, if we use commom anot, the higher the dutycycle, the brighter LED.
 ## MEMBERS
 
 + Trần Minh Đức - 1610800
