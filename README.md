@@ -1,6 +1,7 @@
 # SPI on AndroidThings
 
 ## Describe
+ Create an Android application running on Raspberry Pi 3 to:
  + Write blocks of data to an RFID card including
  + Continuously read an UID and the written data from an RFID card and display this information
 on a screen.
