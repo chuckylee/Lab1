@@ -1,11 +1,12 @@
-# RGB LED controlling with Android Things on Raspberry Pi 3
+# SPI on AndroidThings
 
 ## Describe
- + Using three pins to control an RGB LED displaying in different colors.
- + Get input from a button and then change the pace of color displaying (ex 1). For example, the RGB LED changes colors in 2s by default. After a button is pressed, the rate will change to 1s, then 0.5s, 0.1s and back to 2s. 
- + Similar to exercise 1, control the RGB LED by using PWM to change the brightness of the led. Please read this link for more details of PWM
- + Get input from a button and change the brightness of each color of the RGB LED. For example, the RGB LED changes the brightness of red, green, blue by default. After a button is pressed, only the red one is changing its brightness, then green, blue and back to three colors.
-+ Blink each LED in different paces. The RED LED is blinking every 0.5s, the green is 2s, and the blue is 3s.
+ + Write blocks of data to an RFID card including
+ + Continuously read an UID and the written data from an RFID card and display this information
+on a screen.
+ + Turn the green LED of an RGB LED on when the card of one of your group members is presented.
+ + Flashing the red LED of an RGB LED 5 times in 2 seconds when the other cards are presented.
++ By default, the blue LED of an RGB LED is turned on, and only one LED is turned on at a time.
 
 ## GPIO ports
 
@@ -14,15 +15,13 @@
 | LED RED        |  BCM2|
 | LED GREEN      |  BCM3|
 | LED BLUE       |  BCM4|
-| COMMOM CATOT   |  GND|
-| COMMOM ANOT    |  5V|
-| BUTTON         |  BCM20|
-| PWM PIN        |  PWM0|
+| SPI_PORT       |  SPI0.0|
+| PIN_RESET      |  BCM25|
+| TAG_GLOB         |  RFID|
+
 
 ## Usage
-+ At the exercise 3, add this line: `import com.google.android.things.pio.Pwm` into the MainActivity.java
-+ To use the pio-softpwm driver at the exercise 4, simply add the line below to build.gradle: `implementation com.leinardi.android.things:pio-softpwm:0.2` and add `import com.leinardi.android.things.pio.SoftPwm` into the MainActivity.java
-+ With the exercise controlling the RGB LED by using PWM, if we use commom cattot, the lower the dutycycle, the brighter LED. By contrast, if we use commom anot, the higher the dutycycle, the brighter LED.
+
 ## MEMBERS
 
 + Trần Minh Đức - 1610800
@@ -30,4 +29,3 @@
 + Nguyễn Minh Nhựt - 1612483
 + Lê Đức Trung - 1613786
 
-![Image description](https://user-images.githubusercontent.com/38566092/46803771-11f1af00-cd8b-11e8-8443-1de622b2f84f.jpg)
