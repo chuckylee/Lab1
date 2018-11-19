@@ -2,7 +2,7 @@
 
 ## Describe
  Create an Android application running on Raspberry Pi 3 to:
- + Write blocks of data to an RFID card including
+ + Write blocks of data to an RFID card includingggg
  + Continuously read an UID and the written data from an RFID card and display this information
 on a screen.
  + Turn the green LED of an RGB LED on when the card of one of your group members is presented.
